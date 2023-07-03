@@ -5,10 +5,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class C02_ReadExcel {
+public class C02_ExcelRead {
     /*
     EXCEL dosyasından veri okuyabilmemiz için öncelikle pom.xml dosyamıza poi ve poi.ooxml dependency'lerini
     yüklememiz gerekir.
